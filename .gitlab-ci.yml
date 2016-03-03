@@ -1,0 +1,15 @@
+pages:
+  cache:
+    paths:
+    - vendor
+
+  script:
+  - apt-get update -yqqq
+  - apt-get install -y python-dev libxml2-dev libxslt-dev
+  - curl -sf https://www.getlektor.com/install.sh | sh
+  - lektor build --output-path public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

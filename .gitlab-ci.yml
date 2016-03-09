@@ -6,7 +6,7 @@ pages:
     - vendor
 
   script:
-  - curl -sf https://www.getlektor.com/install.sh | sh
+  - pip install Lektor
   - lektor build --output-path public
   artifacts:
     paths:

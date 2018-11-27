@@ -1,6 +1,5 @@
-title: Welcome to lector_example!
+title: Welcome to TGEM's (yet not so) official webpage!
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+TGEM (Temporal Graph Embedding) is a project created by a group of 3 Data Science students of the Wrocław University of Science and Technology (WUST). It considers embedding techniques for graphs and networks with temporal struture. For more information have a look on the subpages on this website.

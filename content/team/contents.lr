@@ -7,13 +7,13 @@ All members are stuyding Data Science at Wrocław University of Science and Tech
 <table id="team-members">
   <tr>
     <td>
-      <img class="circle" src="/static/piotr.jpg" />
+      <img class="circle" src="/static/img/piotr.jpg" />
     </td>
     <td>
-      <img class="circle" src="/static/mb.jpg" />
+      <img class="circle" src="/static/img/mb.jpg" />
     </td>
     <td>
-      <img class="circle" src="/static/mj.jpg" />
+      <img class="circle" src="/static/img/mj.jpg" />
     </td>
     </td>
   </tr>

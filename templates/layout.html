@@ -1,17 +1,17 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — TGEM</title>
+<title>TGEM</title>
 <body>
   <header>
     <a href="{{ '/'|url }}">
-      <img src="{{ '/static/tgem_logo.png' }}" id="logo" />
+      <img src="{{ '/static/img/tgem_logo.png' }}" id="logo" />
     </a>
     <nav>
       <ul class="nav navbar-nav">
         {% for href, title in [
           ['/', 'Homepage'],
-          ['/projects', 'Projects'],
+          ['/project', 'Project'],
           ['/team', 'Team'],
           ['/about', 'About']
         ] %}

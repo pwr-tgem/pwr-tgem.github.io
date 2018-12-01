@@ -1,5 +1,3 @@
 title: Welcome to TGEM's (yet not so) official webpage!
 ---
-body:
-
-TGEM (Temporal Graph Embedding) is a project created by a group of 3 Data Science students of the Wrocław University of Science and Technology (WUST). It considers embedding techniques for graphs and networks with temporal struture. For more information have a look on the subpages on this website.
+body: TGEM (Temporal Graph Embedding) is a project created by a group of 3 Data Science students of the Wrocław University of Science and Technology (WUST). It considers embedding techniques for graphs and networks with temporal struture. For more information have a look on the subpages on this website.

@@ -1,0 +1,42 @@
+title: Team
+---
+body:
+The team consist of 3 Masters students, who are supervised by dr inż. Tomasz Kajdanowicz.
+All members are stuyding Data Science at Wrocław University of Science and Technology.
+
+<table id="team-members">
+  <tr>
+    <td>
+      <img class="circle" src="/static/piotr.jpg" />
+    </td>
+    <td>
+      <img class="circle" src="/static/mb.jpg" />
+    </td>
+    <td>
+      <img class="circle" src="/static/mj.jpg" />
+    </td>
+    </td>
+  </tr>
+  <tr>
+    <td class="name">Piotr Bielak</td>
+    <td class="name">Michał Bieroński</td>
+    <td class="name">Michał Jóźwiak</td>
+  </tr>
+  <tr>
+    <td>
+      Passionate Python developer, clean code enthusiast and Machine Learning fellow.
+      <br />
+      <br />
+      <a class="github-button" href="https://github.com/pbielak" aria-label="Follow @pbielak on GitHub">Follow @pbielak</a>
+    </td>
+    <td>
+      Opis MB
+    </td>
+    <td>
+      Opis MJ
+    </td>
+  </tr>
+</table>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+

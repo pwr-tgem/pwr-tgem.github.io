@@ -4,13 +4,15 @@
 <title>{% block title %}Welcome{% endblock %} — TGEM</title>
 <body>
   <header>
-    <h1>TGEM</h1>
+    <a href="{{ '/'|url }}">
+      <img src="{{ '/static/tgem_logo.png' }}" id="logo" />
+    </a>
     <nav>
       <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
         {% for href, title in [
+          ['/', 'Homepage'],
           ['/projects', 'Projects'],
+          ['/team', 'Team'],
           ['/about', 'About']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif

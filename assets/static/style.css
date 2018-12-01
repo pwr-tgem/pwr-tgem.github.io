@@ -18,13 +18,6 @@ header, footer, div.page {
     padding: 20px 30px;
 }
 
-header h1 {
-    color: #169bbd;
-    margin: 0;
-    font-weight: normal;
-    font-size: 42px;
-}
-
 header nav ul {
     list-style: none;
     margin: 0;
@@ -37,6 +30,34 @@ header nav ul li {
     padding: 0;
 }
 
+header #logo {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
 div.page {
     background: #f1fbfe;
 }
+
+#team-members {
+  margin-top: 50px;
+  width: 100%;
+}
+
+#team-members td {
+  text-align: center;
+  width: 33%;
+}
+
+#team-members .circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#team-members .name {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px 0 5px 0;
+}
+

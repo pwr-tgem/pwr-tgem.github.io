@@ -1,2 +1,5 @@
 [project]
 name = tgem-webpage
+
+[packages]
+lektor-webpack-support = 0.5

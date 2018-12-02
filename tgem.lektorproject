@@ -5,5 +5,5 @@ name = tgem-webpage
 lektor-webpack-support = 0.5
 
 [servers.ghpages]
-target = ghpages+https://pwr-tgem/pwr-tgem.github.io
+target = ghpages+https://pwr-tgem/tgem-webpage
 
